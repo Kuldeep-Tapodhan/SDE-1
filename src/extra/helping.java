@@ -1,4 +1,8 @@
+
+import java.util.*;
+
 public class helping {
+    static Scanner sc=new Scanner(System.in);
      public  static  void swap(int[] arr,int i,int j){
          int temp = arr[i];
          arr[i] = arr[j];
@@ -11,6 +15,14 @@ public class helping {
              System.out.print(arr[i]+'\t');
          }
          System.out.println();
+     }
+
+     public static int[] inputarray(int size){
+         int[] nums = new int[size];
+         for (int i = 0; i < size; i++) {
+             nums[i] = sc.nextInt();
+         }
+         return  nums;
      }
 
 }
