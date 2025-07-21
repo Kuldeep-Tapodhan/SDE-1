@@ -12,6 +12,11 @@ Bit masking:
 
 
 
+get subset of the array
+
+
+
+
 
 
 
